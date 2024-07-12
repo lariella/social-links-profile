@@ -1,0 +1,99 @@
+body {
+    margin: 0; /* Remove default margin */
+    background-color: hsl(0, 0%, 8%);
+    font-family: "Inter", sans-serif;
+}
+
+main {
+    padding-top: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.profile-container {
+    background-color: hsl(0, 0%, 12%);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    width: 400px;
+    padding: 40px 0px;
+}
+
+.profile-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.profile-info > img {
+    border-radius: 50%;
+    width: 35%;
+}
+
+#name {
+    color: hsl(0, 0%, 100%);
+    font-size: 25px;
+    font-weight: 700;
+    margin: 25px 0px 0px 0px;
+}
+
+#location {
+    color: hsl(75, 94%, 57%);
+    font-size: 14px;
+}
+
+
+#quote {
+    color: hsl(0, 0%, 100%);
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+
+
+
+.social-links-btn {
+    background-color : hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    width: 310px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.social-links-btn:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 12%);
+}
+
+
+@media only screen and (max-width: 576px) {
+    main {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .profile-container {
+        width: 340px;
+    }
+    
+    .social-links-btn {
+        width: 290px;
+    }
+  }
+
+
+
