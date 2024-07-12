@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/lariella/social-links-profile)
-- Live Site URL: [Add live site URL here](https://lariella.github.io/social-links-profile/)
+- Solution URL: [https://github.com/lariella/social-links-profile](https://github.com/lariella/social-links-profile)
+- Live Site URL: [https://lariella.github.io/social-links-profile/](https://lariella.github.io/social-links-profile/)
 
 ## My process
 
